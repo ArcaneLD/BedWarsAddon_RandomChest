@@ -1,0 +1,16 @@
+name: BedwarsRandomChest
+version: '1.0'
+main: fr.arcane.bedwarsrandomchest.BedwarsRandomChest
+authors: [ Arcane ]
+description: Randomly spawn chest around the map with items in it
+
+commands:
+  rchest:
+    description: rchest main command
+    usage: /<command> <start|add|clear>
+    permission: randomchest.rchestcommand
+
+  sacredtreasure:
+    description: give items from the plugin
+    usage: /<command> <itemname>
+    permission: randomchest.sacredtreasurecommand
